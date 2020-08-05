@@ -14,8 +14,8 @@ from torch.autograd import Variable
 
 from torchvision import transforms
 
-import matting.dataset as dataset
-import matting.modules as modules
+import dataset as dataset
+import modules as modules
 
 import torchlib.viz as viz
 from torchlib.utils import save
